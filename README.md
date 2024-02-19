@@ -18,11 +18,11 @@ Now that I have found this program I have decided that I will redo the project i
 
 ## Technical Description
 
-### "g.py"
+### "g.py" - Version 1
 
-### "g - new.py"
+### "g - new.py" - Version 2
 
-### "g.txt"
+### "g.txt" - Storage
 
 ## Recent Edits
 ### Edits Since 2022
