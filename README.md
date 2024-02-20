@@ -23,9 +23,10 @@ Now that I have found this program I have decided that I will redo the project i
 This file is filled by copying and pasting the raw google sheet of gym data that I have into a text document. This leads to data in line separated by tabs (\t). In both of the version of the document, the document is processed in the same way:
 - Splitting the lines by tabs (\t),
 - Knowing that (this is illustrated in the "google sheet example image.png"):
--   Every three columns (every three '\t's) is a new month of the sheet,
--   Every day is separated by a blank line followed by the date and type of day on one line,
--   
+  - Every three columns (every three '\t's) is a new month of the sheet,
+  - Every day is separated by a blank line followed by the date and type of day on one line,
+- Splitting information by days based on the information above,
+- Splitting days into a list of exercises containing an exercise name and information on the sets.
 
 ### "g.py" - Version 1
 
